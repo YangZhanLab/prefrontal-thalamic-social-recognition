@@ -1,4 +1,4 @@
-This software package includes the codes used for population decoding of single-unit responses of freely-behaving mice to different social stimuli, as well as example data files for illustrating the running of each functions. The codes were written as MATLAB .m scripts, and tested with MATLAB R2023a under Windows 10 v22H2 operating system.
+This software package includes the codes used for population decoding of single-unit responses of freely-behaving mice to different social stimuli, as well as example data files for illustrating the running of each functions. The codes were written as MATLAB .m scripts, and tested under MATLAB R2023a with Windows 10 v22H2 operating system.
 
 1. "mPFC_RE_decoding.m" was used to examine the decoding performance from mPFC and RE neurons. Population decoding was performed within each session, based on binned population vectors from the during stimulus period.  A naïve Bayesian decoder was trained to discriminate the firing of 4 different social stimuli. The bin length effect and population dimension effect on classification accuracies were compared for mPFC and RE. 
 
